@@ -34,8 +34,9 @@ const useTechCheckStore = create<TechCheckStoreProps>((set) => ({
 		if (!newTechCheck.fullname || !newTechCheck.businessEmail || !newTechCheck.helpWith) {
 			return { success: false, message: "Please fill all inputs" };
 		}
+		const api = import.meta.env.VITE_API_URL;
 
-		const response = await fetch("http://localhost:4000/techCheck", {
+		const response = await fetch(api, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
