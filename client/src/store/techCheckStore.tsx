@@ -36,7 +36,7 @@ const useTechCheckStore = create<TechCheckStoreProps>((set) => ({
 		}
 		const api = import.meta.env.VITE_API_URL;
 
-		const response = await fetch(api, {
+		const response = await fetch(`${api}/techCheck`, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

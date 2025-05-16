@@ -1,15 +1,7 @@
 import pool from "../config/db.js";
 
 const createTechCheckTable = async () => {
-	const queryText = `CREATE TABLE IF NOT EXISTS techchecks (
-    id SERIAL PRIMARY KEY,
-    fullname VARCHAR(100) NOT NULL, 
-    businessEmail VARCHAR(100) UNIQUE NOT NULL, 
-    companyName VARCHAR(100) NOT NULL, 
-    helpWith TEXT NOT NULL, 
-    teamSize TEXT NOT NULL,
-    createdAt TIMESTAMP DEFAULT NOW()
-)`;
+	const queryText = `ALTER TABLE techChecks ADD COLUMN referrer TEXT`;
 
 	try {
 		await pool.query(queryText);

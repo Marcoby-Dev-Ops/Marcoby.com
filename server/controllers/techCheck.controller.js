@@ -13,7 +13,7 @@ const createTechCheck = async (req, res, next) => {
 	const { fullname, businessEmail, companyName, helpWith, teamSize } = req.body;
 
 	try {
-		const newTechCheck = await createTechCheckService(fullname, businessEmail, companyName, helpWith, teamSize);
+		const newTechCheck = await createTechCheckService(fullname, businessEmail, companyName, helpWith, teamSize, req);
 		handleResponse(res, 201, "Details has been sent successfully", newTechCheck);
 	} catch (err) {
 		next(err);
