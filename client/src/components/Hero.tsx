@@ -1,5 +1,6 @@
 import React from "react";
 import Reveal from "./Reveal";
+import ITHealthCheck from "./ITHealthCheck";
 // import herobg from "../assets/bgvideo.mp4";
 // import EcosystemMap from "./EcosystemData";
 
@@ -25,21 +26,18 @@ const Hero = () => {
 			<Reveal>
 				<div className="relative flex flex-col items-center justify-center gap-y-7 max-w-[600px] text-center z-[2]">
 					<h1 className="font-OpenSans text-sm text-[#00A651] rounded-full px-3 py-1 bg-[#e4f0ec] dark:bg-[#e4f0ec20]">
-						Welcome to the Future Of Business Operations
+						Is Your Business Technology Slowing You Down?
 					</h1>
 					<p className="text-4xl text-[#00A651] font-Roboto tracking-wide md:leading-[70px] md:text-6xl">
-						Revolutionizing Business Operations
+						We Handle Your Tech, You Grow Your Business
 					</p>
 					<p className="px-1 font-Noto text-sm text-gray-600 dark:text-gray-400">
-						Empowering businesses with Pulse, Catalyst & Nexus--integrated solutions through our innovative Business
-						Operating System.
+						We set up, manage, and support all your business technology—computers, software, updates, and more. Take our free Business Checkup to see how your tech is doing.
 					</p>
-					<a
-						href="https://outlook.office365.com/book/MarcobyITSolutions@marcoby.com/"
-						target="_blank"
-						className="px-5 py-3 rounded-md bg-[#006837] text-xs font-OpenSans text-white hover:bg-[#00A651] duration-300">
-						Book a 15-min TechCheck &#8594;
-					</a>
+					<div className="mt-4">
+						<ITHealthCheck inlineButton />
+						<div className="text-xs text-gray-500 mt-2">Takes 2 minutes. No obligation.</div>
+					</div>
 				</div>
 			</Reveal>
 		</section>

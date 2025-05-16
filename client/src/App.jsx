@@ -11,6 +11,8 @@ import EmailSecurity from "./components/EmailSecurity";
 // import NetworkNewsFeed from "./components/NetworkNewsFeed";
 import Partners from "./components/Partners";
 import Partners2 from "./components/Partner2";
+import ITHealthCheck from "./components/ITHealthCheck";
+import BlogPreviews from "./components/BlogPreviews";
 
 function App() {
 	return (
@@ -27,6 +29,7 @@ function App() {
 				{/* <SiteChecker /> */}
 				{/* <NetworkNewsFeed /> */}
 				<EmailSecurity />
+				<BlogPreviews />
 				<Contact />
 
 				<Footer />

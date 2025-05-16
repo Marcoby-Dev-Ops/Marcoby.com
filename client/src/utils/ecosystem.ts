@@ -12,7 +12,7 @@ export const ecosystemList: EcosystemProps[] = [
 		sublinks: [
 			{
 				title: "Domain & Hosting",
-				href: "https://cloud.marcoby.com/resources",
+				href: "https://cloud.marcoby.com",
 			},
 			{
 				title: "Microsoft 365 & Pax8 Tools",
@@ -38,23 +38,23 @@ export const ecosystemList: EcosystemProps[] = [
 		sublinks: [
 			{
 				title: "IT-as-a-Service",
-				href: "https://catalyst.marcoby.com/#services",
+				href: "https://catalyst.marcoby.com/",
 			},
 			{
 				title: "Web-as-a-Service",
-				href: "https://catalyst.marcoby.com/#services",
+				href: "https://catalyst.marcoby.com/",
 			},
 			{
 				title: "Automation & Systems Admin",
-				href: "https://catalyst.marcoby.com/#services",
+				href: "https://catalyst.marcoby.com/",
 			},
 			{
 				title: "Marketing-as-a-Service",
-				href: "https://catalyst.marcoby.com/#services",
+				href: "https://catalyst.marcoby.com/",
 			},
 			{
 				title: "Monthly plans with features",
-				href: "https://catalyst.marcoby.com/#services",
+				href: "https://catalyst.marcoby.com/",
 			},
 		],
 	},
