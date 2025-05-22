@@ -3,9 +3,6 @@ import aboutImg from "../assets/images/logo.png";
 import pulseLogo from "../assets/images/pulse-logo.png";
 import catalystLogo from "../assets/images/catalyst-logo.png";
 import nexusLogo from "../assets/images/nexus-logo.png";
-import pulseImg from "../assets/images/blog/harnessing-the-power-of-cloud-services-for-small-businesses.png";
-import catalystImg from "../assets/images/blog/data-security-must-haves-for-small-businesses.png";
-import nexusImg from "../assets/images/blog/nexus-tips-streamlining-your-small-business-it-operations.png";
 import Reveal from "./Reveal";
 import Section from "./Section";
 import { User, TrendingUp, Headset, BadgeCheck, Layers, ChevronDown } from "lucide-react";
@@ -43,19 +40,19 @@ const servicesList = [
 		name: "Pulse",
 		description: "Value added reseller platform for hardware, software, and hosting solutions.",
 		href: "https://pulse.marcoby.com",
-		image: pulseImg,
+		image: pulseLogo,
 	},
 	{
 		name: "Catalyst",
 		description: "Managed IT services tailored to businesses of all sizes.",
 		href: "https://catalyst.marcoby.com",
-		image: catalystImg,
+		image: catalystLogo,
 	},
 	{
 		name: "Nexus",
 		description: "Headquarters-as-a-Service platform integrating tools, workflows and insights.",
 		href: "https://nexus.marcoby.com",
-		image: nexusImg,
+		image: nexusLogo,
 	},
 ];
 

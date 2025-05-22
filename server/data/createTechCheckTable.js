@@ -8,6 +8,7 @@ const createTechCheckTable = async () => {
     companyName VARCHAR(100) NOT NULL, 
     helpWith TEXT NOT NULL, 
     teamSize TEXT NOT NULL,
+    referrer TEXT,
     createdAt TIMESTAMP DEFAULT NOW()
 )`;
 
